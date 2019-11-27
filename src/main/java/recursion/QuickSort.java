@@ -10,7 +10,7 @@ public class QuickSort{
         return devide(a,p,r);
     }
 
-    void quickSort(int[] a ,int p , int right){
+    public void quickSort(int[] a, int p, int right){
 //        p = (int) (Math.random() * right);
         if (p < right){
 
